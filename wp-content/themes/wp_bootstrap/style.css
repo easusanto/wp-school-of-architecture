@@ -1,0 +1,39 @@
+/*
+Theme Name: Virginia Tech School of Architecture + Design
+Description: A custom theme for the Virginia Tech School of Architecture + Design
+Author: Estelle Susanto
+Version: 1.0
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+*/
+
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css'); 
+body { 
+     padding-top: 60px; 
+     padding-bottom: 40px; 
+}
+.logo {
+	display: block;
+  float: left;
+  padding: 10px 20px 10px;
+  margin-left: -20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #ff9900;
+  text-shadow: 0 1px 0 #ff9900;
+}
+
+.logo:hover{
+
+	text-decoration: none;
+}
+
+.navbar {
+    border-radius: 0;
+}
+#directory {
+    margin-left: 20px;
+}
